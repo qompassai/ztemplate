@@ -1,33 +1,30 @@
 {
-  "title": "Your Project Title",
-  "description": "A detailed description of your project",
-  "license": ["AGPL-3.0", "Q-CDA-1.0"],
+  "title": "Qompass-Template",
+  "description": "Qompass GH Template",
+  "license": "Q-CDA-1.0",
+  "language": "eng",
   "upload_type": "software",
   "access_right": "open",
-  "version": "1.0.0",
+  "version": "a1a18dd-dirty",
+  "publication_date": "2025-05-04",
   "creators": [
     {
       "name": "Porter, Matthew A.",
       "affiliation": "Qompass AI",
-      "orcid": "0000-0002-0302-4812"
+      "orcid": "0000-0002-0302-4812",
+      "type": "Author"
     }
   ],
-  "keywords": [
-    "AI",
-    "Quantum",
-    "Post-Quantum Cryptography",
-    "Healthcare",
-    "Education"
-  ],
+  "keywords": ["AI","Education","Healthcare","Post-Quantum Cryptography","Quantum","opensource","software"],
   "related_identifiers": [
-    {
-      "identifier": "https://github.com/PhaedrusFlow/your-repository-name",
-      "relation": "isSupplementTo",
-      "resource_type": "software"
-    }
+    { "identifier": "https://github.com/qompassai/Qompass-Template", "relation": "isSupplementTo", "resource_type": "software" },
+    { "identifier": "https://github.com/qompassai/Qompass-Template/releases/tag/v2025-05-04", "relation": "isIdenticalTo", "resource_type": "software" },
+    { "identifier": "https://orcid.org/0000-0002-0302-4812", "relation": "isAuthorOf", "resource_type": "person" },
+    { "identifier": "https://github.com/qompassai/Qompass-Template/actions", "relation": "isCompiledBy", "resource_type": "workflow" }
   ],
-  "communities": [
-    {"identifier": "qompass"}
+  "communities": [ { "identifier": "qompassai" } ],
+  "contributors": [
+    { "name": "Porter, Matthew A.", "orcid": "https://orcid.org/0000-0002-0302-4812", "type": "Author" },
+    { "name": "Qompass AI", "type": "Sponsor" }
   ]
 }
-
